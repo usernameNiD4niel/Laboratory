@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="LandingPage/css/main.css" />
+    <title>Laboratory Activity</title>
+    <style>
+      td:first-child,
+      td:last-child {
+        text-align: center;
+      }
+      table {
+        height: 100vh;
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
+        margin: 0 auto;
+      }
+
+      .links a {
+        margin-bottom: 1rem;
+      }
+
+      .names,
+      tr:nth-child(2) > td:nth-child(2) > h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <tr>
+        <td colspan="3">Header</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+          </div>
+        </td>
+        <td>
+          <h1>Welcome to CC106 Blog</h1>
+          <div class="names">
+            <p>Daniel V. Rey</p>
+            <p>Chona Mae G. Zamudio</p>
+          </div>
+        </td>
+        <td>
+          <h2>Last Article</h2>
+          <ol>
+            <li>Human Resource</li>
+            <li>Capability of IT</li>
+          </ol>
+          <ul>
+            <li>Communacation</li>
+            <li>Entertainment</li>
+            <li>Commerce</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">Copyright &copy; 2021</td>
+      </tr>
+    </table>
+  </body>
+</html>
